@@ -15,7 +15,7 @@ if(isset($_GET['modalRegiao_inputNomeCadastrarEstado'])){
 		//Transformar o Nome do Estado em Array
 		$array_cadastrarEstado_Nome = (array) $cadastrarEstado_Nome;
 		$array_cadastrarEstado_Uf = (array) $cadastrarEstado_Uf;
-		//Array de Marcas Vinculadas
+		//Array de Estados e Uf's Vinculados
 		$estadosCadastrados = [];
 		$ufCadastradas = [];
 		$consulta_estadosVinculados = [];
